@@ -2,6 +2,37 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="zh_CN">
 <context>
+    <name></name>
+    <message id="What's on your mind?">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="Maintainer of this forked Tooter release, translations">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="Visual identity">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="Occitan & French translation">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="Dutch translation">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="Spanish translation">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="Added README file">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>API</name>
     <message>
         <source>favourited</source>
@@ -21,49 +52,10 @@
     </message>
 </context>
 <context>
-    <name>Browser</name>
-    <message>
-        <source>Open in Browser</source>
-        <translation>在浏览器打开</translation>
-    </message>
-    <message>
-        <source>Web mode</source>
-        <translation>网页模式</translation>
-    </message>
-    <message>
-        <source>Reading mode</source>
-        <translation>阅读模式</translation>
-    </message>
-    <message>
-        <source>Copy URL</source>
-        <translation>复制链接</translation>
-    </message>
-</context>
-<context>
     <name>Conversation</name>
     <message>
         <source>Conversation</source>
         <translation>对话</translation>
-    </message>
-    <message>
-        <source>Content warning!</source>
-        <translation>内容警告!</translation>
-    </message>
-    <message>
-        <source>public</source>
-        <translation>公共区域</translation>
-    </message>
-    <message>
-        <source>unlisted</source>
-        <translation>未列的</translation>
-    </message>
-    <message>
-        <source>followers only</source>
-        <translation>仅关注者</translation>
-    </message>
-    <message>
-        <source>direct</source>
-        <translation>直接</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -76,6 +68,26 @@
     <message>
         <source>Tap to insert</source>
         <translation>点击插入</translation>
+    </message>
+    <message>
+        <source>Write your warning here</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unlisted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Followers-only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Direct</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -230,6 +242,10 @@
         <source>Followers</source>
         <translation>关注者</translation>
     </message>
+    <message>
+        <source>Bio</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Settings</name>
@@ -260,14 +276,6 @@
     <message>
         <source>Disable this option if you want to preserve your data connection</source>
         <translation>如果你想保护你的数据连接，请禁用此选项</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation>翻译</translation>
-    </message>
-    <message>
-        <source>Use Transifex to help with app translation to your language</source>
-        <translation>使用 Transifex 以帮助此软件翻译为你的语言</translation>
     </message>
     <message>
         <source>About</source>

@@ -2,6 +2,37 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="de">
 <context>
+    <name></name>
+    <message id="What's on your mind?">
+        <source></source>
+        <translation>Was möchtest du mitteilen?</translation>
+    </message>
+    <message id="Maintainer of this release">
+        <source></source>
+        <translation>Weiterentwicklung der Tooter App</translation>
+    </message>
+    <message id="Visual identity">
+        <source></source>
+        <translation>Visuelle Identität</translation>
+    </message>
+    <message id="Occitan & French translation">
+        <source></source>
+        <translation>Französische Übersetzung</translation>
+    </message>
+    <message id="Dutch translation">
+        <source></source>
+        <translation>Niederländische Übersetzung</translation>
+    </message>
+    <message id="Spanish translation">
+        <source></source>
+        <translation>Spanische Übersetzung</translation>
+    </message>
+    <message id="Added README file">
+        <source></source>
+        <translation>Erstellung README-Dokument</translation>
+    </message>
+</context>
+<context>
     <name>API</name>
     <message>
         <source>favourited</source>
@@ -13,7 +44,7 @@
     </message>
     <message>
         <source>boosted</source>
-        <translation>verstärkt</translation>
+        <translation>geboostet</translation>
     </message>
     <message>
         <source>said</source>
@@ -21,49 +52,10 @@
     </message>
 </context>
 <context>
-    <name>Browser</name>
-    <message>
-        <source>Open in Browser</source>
-        <translation>Öffne in Browser</translation>
-    </message>
-    <message>
-        <source>Web mode</source>
-        <translation>Web-Modus</translation>
-    </message>
-    <message>
-        <source>Reading mode</source>
-        <translation>Lese-Modus</translation>
-    </message>
-    <message>
-        <source>Copy URL</source>
-        <translation>Kopiere URL</translation>
-    </message>
-</context>
-<context>
     <name>Conversation</name>
     <message>
         <source>Conversation</source>
         <translation>Konversation</translation>
-    </message>
-    <message>
-        <source>Content warning!</source>
-        <translation>Inhaltswarnung!</translation>
-    </message>
-    <message>
-        <source>public</source>
-        <translation>öffentlich</translation>
-    </message>
-    <message>
-        <source>unlisted</source>
-        <translation>nicht aufgeführt</translation>
-    </message>
-    <message>
-        <source>followers only</source>
-        <translation>nur Follower</translation>
-    </message>
-    <message>
-        <source>direct</source>
-        <translation>direkt</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -76,6 +68,26 @@
     <message>
         <source>Tap to insert</source>
         <translation>Tippen um einzufügen</translation>
+    </message>
+    <message>
+        <source>Write your warning here</source>
+        <translation>Warnung hier eingeben</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Öffentlich</translation>
+    </message>
+    <message>
+        <source>Unlisted</source>
+        <translation>Nicht gelistet</translation>
+    </message>
+    <message>
+        <source>Followers-only</source>
+        <translation>Nur Followers</translation>
+    </message>
+    <message>
+        <source>Direct</source>
+        <translation>Direkt</translation>
     </message>
 </context>
 <context>
@@ -103,7 +115,7 @@
         <translation>Instanz</translation>
     </message>
     <message>
-        <source>Enter an Mastodon instance URL</source>
+        <source>Enter a valid Mastodon instance URL</source>
         <translation>Gewünschte Mastodon-Instanz URL eingeben</translation>
     </message>
     <message>
@@ -230,6 +242,10 @@
         <source>Followers</source>
         <translation>Anhänger</translation>
     </message>
+    <message>
+        <source>Bio</source>
+        <translation>Bio</translation>
+    </message>
 </context>
 <context>
     <name>Settings</name>
@@ -262,14 +278,6 @@
         <translation>Diese Option deaktivieren um Datenvolumen zu sparen</translation>
     </message>
     <message>
-        <source>Translate</source>
-        <translation>Übersetzen</translation>
-    </message>
-    <message>
-        <source>Use Transifex to help with app translation to your language</source>
-        <translation>Transifex benutzen um bei der Übersetzung der Anwendung zu helfen</translation>
-    </message>
-    <message>
         <source>About</source>
         <translation>Über</translation>
     </message>
@@ -290,7 +298,7 @@
     <name>Toot</name>
     <message>
         <source>boosted</source>
-        <translation>verstärkt</translation>
+        <translation>geboostet</translation>
     </message>
     <message>
         <source>favourited</source>
@@ -305,19 +313,19 @@
     <name>VisualContainer</name>
     <message>
         <source>Unboost</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht boosten</translation>
     </message>
     <message>
         <source>Boost</source>
-        <translation type="unfinished"></translation>
+        <translation>Boosten</translation>
     </message>
     <message>
         <source>Unfavorite</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht favorisieren</translation>
     </message>
     <message>
         <source>Favorite</source>
-        <translation type="unfinished"></translation>
+        <translation>Favorisieren</translation>
     </message>
 </context>
 </TS>

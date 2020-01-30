@@ -2,6 +2,37 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="fr">
 <context>
+    <name></name>
+    <message id="What's on your mind?">
+        <source></source>
+        <translation>Partage tes pensez</translation>
+    </message>
+    <message id="Maintainer of this forked Tooter release, translations">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="Visual identity">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="Occitan & French translation">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="Dutch translation">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="Spanish translation">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message id="Added README file">
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>API</name>
     <message>
         <source>favourited</source>
@@ -21,49 +52,10 @@
     </message>
 </context>
 <context>
-    <name>Browser</name>
-    <message>
-        <source>Open in Browser</source>
-        <translation>Ouvrir dans le navigateur</translation>
-    </message>
-    <message>
-        <source>Web mode</source>
-        <translation>Vue internet</translation>
-    </message>
-    <message>
-        <source>Reading mode</source>
-        <translation>Mode lecture</translation>
-    </message>
-    <message>
-        <source>Copy URL</source>
-        <translation>Copier l&apos;URL</translation>
-    </message>
-</context>
-<context>
     <name>Conversation</name>
     <message>
         <source>Conversation</source>
         <translation>Conversation</translation>
-    </message>
-    <message>
-        <source>Content warning!</source>
-        <translation>Contenu sensible !</translation>
-    </message>
-    <message>
-        <source>public</source>
-        <translation>public</translation>
-    </message>
-    <message>
-        <source>unlisted</source>
-        <translation>non listé</translation>
-    </message>
-    <message>
-        <source>followers only</source>
-        <translation>abonnés seulement</translation>
-    </message>
-    <message>
-        <source>direct</source>
-        <translation>direct</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -76,6 +68,26 @@
     <message>
         <source>Tap to insert</source>
         <translation>Appuyez pour insérer</translation>
+    </message>
+    <message>
+        <source>Write your warning here</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unlisted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Followers-only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Direct</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -230,6 +242,10 @@
         <source>Followers</source>
         <translation>Abonnés</translation>
     </message>
+    <message>
+        <source>Bio</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Settings</name>
@@ -260,14 +276,6 @@
     <message>
         <source>Disable this option if you want to preserve your data connection</source>
         <translation>Désactiver cette option pour économiser des données mobiles</translation>
-    </message>
-    <message>
-        <source>Translate</source>
-        <translation>Traduire</translation>
-    </message>
-    <message>
-        <source>Use Transifex to help with app translation to your language</source>
-        <translation>Utiliser Transifex pour aider avec la traduction de l&apos;application</translation>
     </message>
     <message>
         <source>About</source>
