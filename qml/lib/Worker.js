@@ -226,6 +226,7 @@ function parseToot (data){
     item['highlight'] = false
     item['status_id'] = data["id"]
     item['status_uri'] = data["uri"]
+    item['status_url'] = data ["url"]
     item['status_in_reply_to_id'] = data["in_reply_to_id"]
     item['status_in_reply_to_account_id'] = data["in_reply_to_account_id"]
     item['status_reblog'] = data["reblog"] ? true : false
