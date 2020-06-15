@@ -211,7 +211,6 @@ BackgroundItem {
         }
 
         Rectangle {
-            radius: 2
             color: Theme.highlightDimmerColor
             visible: status_spoiler_text.length > 0
             anchors.fill: parent
