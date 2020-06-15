@@ -84,7 +84,7 @@ BackgroundItem {
                                    "user_id": model.account_id,
                                    "profileImage": model.account_avatar,
                                    "profileBackground": model.account_header
-                               } )
+                               })
             }
         }
 
@@ -245,9 +245,7 @@ BackgroundItem {
 
     MediaBlock {
         id: media
-        visible: if (myList.type === "notifications" && ( type === "favourite" || type === "reblog" )) {
-                     false
-                 } else true
+        visible: myList.type !== "notifications" && ( model.type !== "favourite" || model.type !== "reblog" )
         model: typeof attachments !== "undefined" ? attachments : Qt.createQmlObject('import QtQuick 2.0; ListModel {   }', Qt.application, 'InternalQmlObject');
         height: Theme.iconSizeExtraLarge * 2
         anchors {
@@ -376,13 +374,13 @@ BackgroundItem {
         if (typeof mdl !== "undefined")
             m.append(mdl.get(index))
         pageStack.push(Qt.resolvedUrl("../ConversationPage.qml"), {
-                           headerTitle: qsTr("Conversation"),
-                           "toot_id": status_id,
-                           "toot_url": status_url,
-                           "toot_uri": status_uri,
-                           "description": '@'+account_acct,
-                           //title: account_display_name,
-                           //avatar: account_avatar,
+                           headerTitle: "Conversation",
+                           toot_id: status_id,
+                           toot_url: status_url,
+                           toot_uri: status_uri,
+                           title: account_display_name,
+                           description: '@'+account_acct,
+                           avatar: account_avatar,
                            mdl: m,
                            type: "reply"
                        })

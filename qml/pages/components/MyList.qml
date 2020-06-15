@@ -70,7 +70,7 @@ SilicaListView {
             text: qsTr("New Toot")
             onClicked: {
                 pageStack.push(Qt.resolvedUrl("../ConversationPage.qml"), {
-                                   headerTitle: qsTr("New Toot"),
+                                   //headerTitle: "New Toot",
                                    type: "new"
                                })
             }
@@ -84,7 +84,8 @@ SilicaListView {
         }
     }
 
-    delegate: VisualContainer {}
+    delegate: VisualContainer {
+    } //Toot {}
 
     add: Transition {
         NumberAnimation { property: "opacity"; from: 0; to: 1.0; duration: 800 }

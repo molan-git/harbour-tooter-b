@@ -53,17 +53,14 @@ BackgroundItem {
         height: account_acct.height + display_name.height
         Label {
             id: display_name
-            text:  if (model.account_display_name === "") {
-                       model.account_username.split('@')[0] + " "
-                   }
-                   else model.account_display_name
+            text: model.account_display_name+" "
             color: !pressed ?  Theme.primaryColor : Theme.highlightColor
             font.pixelSize: Theme.fontSizeSmall
         }
         Label {
             id: account_acct
             text: "@"+model.account_acct
-            color: !pressed ? Theme.secondaryColor : Theme.secondaryHighlightColor
+            color: !pressed ?  Theme.secondaryColor : Theme.secondaryHighlightColor
             anchors.leftMargin: Theme.paddingMedium
             font.pixelSize: Theme.fontSizeExtraSmall
         }

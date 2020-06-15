@@ -169,15 +169,16 @@ Page {
                     }
 
                     delegate: ItemUser {
-                        onClicked: pageStack.push(Qt.resolvedUrl("ProfilePage.qml"), {
-                                                      "display_name": model.account_display_name,
-                                                      "username": model.account_acct,
-                                                      "user_id": model.account_id,
-                                                      "profileImage": model.account_avatar,
-                                                      "profileBackground": model.account_header
-                                                  })
+                        onClicked: {
+                            pageStack.push(Qt.resolvedUrl("ProfilePage.qml"), {
+                                               "display_name": model.account_display_name,
+                                               "username": model.account_acct,
+                                               "user_id": model.account_id,
+                                               "profileImage": model.account_avatar,
+                                               "profileBackground": model.account_header
+                                           })
+                        }
                     }
-
                     Component.onCompleted: {
                         view2.type = "accounts/search"
                         view2.params = []
@@ -255,7 +256,7 @@ Page {
         }
     }
 
-    function onLinkActivated(href) {
+    function onLinkActivated(href){
         var test = href.split("/")
         console.log(href)
         console.log(JSON.stringify(test))
