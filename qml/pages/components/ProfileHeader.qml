@@ -12,7 +12,7 @@ Item {
     property string bg: ""
 
     width: parent.width
-    height: if (bot === true) {
+    height: if (bot === true || followed_by === true || locked === true) {
                 avatarImage.height + Theme.paddingLarge*2 + infoLbl.height + Theme.paddingLarge
             } else avatarImage.height + Theme.paddingLarge*2
 
@@ -122,9 +122,9 @@ Item {
             rightMargin: Theme.paddingLarge
         }
 
-        /* Rectangle {
+        Rectangle {
             id: followingBg
-            visible: (following ? true : false)
+            visible: (followed_by ? true : false)
             radius: Theme.paddingSmall
             color: Theme.secondaryHighlightColor
             width: followingLbl.width + 2*Theme.paddingLarge
@@ -138,7 +138,7 @@ Item {
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
             }
-        } */
+        }
 
         Rectangle {
             id: botBg
@@ -157,5 +157,24 @@ Item {
                 anchors.verticalCenter: parent.verticalCenter
             }
         }
+
+        Rectangle {
+            id: lockedBg
+            visible: (locked ? true : false)
+            radius: Theme.paddingSmall
+            color: Theme.secondaryHighlightColor
+            width: lockedLbl.width + 2*Theme.paddingLarge
+            height: parent.height
+
+            Label {
+                id: lockedLbl
+                text: qsTr("Locked")
+                font.pixelSize: Theme.fontSizeExtraSmall
+                color: Theme.primaryColor
+                anchors.horizontalCenter: parent.horizontalCenter
+                anchors.verticalCenter: parent.verticalCenter
+            }
+        }
+
     }
 }
