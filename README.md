@@ -1,7 +1,7 @@
 # Tooter β <img width="50" title="Page Home" src="https://openrepos.net/sites/default/files/styles/thumbnail/public/packages/10743/icon-harbour-tooter.png">
 
 ## About
-Tooter is Mastodon client for [Sailfish OS](https://sailfishos.org).
+Tooter is a Mastodon client for [Sailfish OS](https://sailfishos.org).
 
 This fork is being used to further develop and maintain the Tooter app by dysko ([harbour-tooter](https://github.com/dysk0/harbour-tooter)). 
 
