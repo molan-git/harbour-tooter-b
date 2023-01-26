@@ -3,7 +3,7 @@
 ## About
 Tooter is a Mastodon client for [Sailfish OS](https://sailfishos.org).
 
-**Update 2023: The current development repository is https://github.com/poetaster/harbour-tooter. Please contribute there.**
+**Update January 2023: The current development repository is https://github.com/poetaster/harbour-tooter. Please contribute there.**
 
 This fork is being used to further develop and maintain the Tooter app by dysko ([harbour-tooter](https://github.com/dysk0/harbour-tooter)). 
 
